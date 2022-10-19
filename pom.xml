@@ -27,13 +27,13 @@
 		<testng.artifactId>testng</testng.artifactId>
 		<testng.version>6.9.10</testng.version>
 
-		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
-
 		<!-- JaCoCo properties -->
 		<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
 		<jacoco.groupId>org.jacoco</jacoco.groupId>
 		<jacoco.artifactId>jacoco-maven-plugin</jacoco.artifactId>
 		<jacoco.version>0.8.7</jacoco.version>
+
+		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
 
 		<!-- SonarQube properties -->
 		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
